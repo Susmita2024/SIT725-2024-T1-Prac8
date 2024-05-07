@@ -1,0 +1,23 @@
+{
+  "name": "prac-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/test/**/*.js'",
+    "start": "server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chai": "^4.0.0",
+    "express": "^4.19.1",
+    "http": "^0.0.1-security",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.5.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5"
+  }
+}
